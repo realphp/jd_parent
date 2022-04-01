@@ -1,0 +1,11 @@
+
+server:
+  port: 8021
+
+spring:
+  application:
+    name: "jd_service_good"
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.9.186:8848

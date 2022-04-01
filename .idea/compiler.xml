@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jd_web" />
+        <module name="jd_service_good" />
+        <module name="jd_gateway" />
+        <module name="jd_common" />
+        <module name="jd_service_api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jd_gateway" target="1.5" />
+      <module name="jd_nacos" target="1.8" />
+      <module name="js_gateway" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jd_common" options="" />
+      <module name="jd_gateway" options="" />
+      <module name="jd_nacos" options="-parameters" />
+      <module name="jd_service" options="-parameters" />
+      <module name="jd_service_api" options="" />
+      <module name="jd_service_good" options="" />
+      <module name="jd_web" options="" />
+    </option>
+  </component>
+</project>
